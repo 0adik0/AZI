@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="AziPanel.Accept" xml:space="preserve">
+		<value>Accept</value>
+	</data>
+	<data name="AziPanel.Cancel" xml:space="preserve">
+		<value>Cancel</value>
+	</data>
+	<data name="AziPanel.Msg" xml:space="preserve">
+		<value>To enter you need to make:</value>
+	</data>
+	<data name="AziPanel.TopMsg" xml:space="preserve">
+		<value>Sign in round AZI?</value>
+	</data>
+	<data name="Bottom.Balance" xml:space="preserve">
+		<value>Balance</value>
+	</data>
+	<data name="Bottom.Balance0" xml:space="preserve">
+		<value>vBalance</value>
+	</data>
+	<data name="Bottom.IncreaseBet" xml:space="preserve">
+		<value>Raise it to:</value>
+	</data>
+	<data name="Bottom.Inrease" xml:space="preserve">
+		<value>Raise</value>
+	</data>
+	<data name="Bottom.News" xml:space="preserve">
+		<value>News</value>
+	</data>
+	<data name="Bottom.Pass" xml:space="preserve">
+		<value>Pass</value>
+	</data>
+	<data name="Bottom.Play" xml:space="preserve">
+		<value>Play</value>
+	</data>
+	<data name="Bottom.Ruls" xml:space="preserve">
+		<value>Rules</value>
+	</data>
+	<data name="Bottom.Urav" xml:space="preserve">
+		<value>Equalize</value>
+	</data>
+	<data name="ExitPanel.Exit" xml:space="preserve">
+		<value>Go Out</value>
+	</data>
+	<data name="ExitPanel.Msg" xml:space="preserve">
+		<value>Do you want to quit the game?</value>
+	</data>
+	<data name="ExitPanel.Stay" xml:space="preserve">
+		<value>Stay</value>
+	</data>
+	<data name="Game.Equalized" xml:space="preserve">
+		<value>Equalized</value>
+	</data>
+	<data name="Game.Out" xml:space="preserve">
+		<value>Away</value>
+	</data>
+	<data name="Game.OutAzi" xml:space="preserve">
+		<value>I pass</value>
+	</data>
+	<data name="Game.Pass" xml:space="preserve">
+		<value>Pass</value>
+	</data>
+	<data name="Game.Raise" xml:space="preserve">
+		<value>Raised on </value>
+	</data>
+	<data name="Game.Waiting" xml:space="preserve">
+		<value>Waiting for the other
+players</value>
+	</data>
+	<data name="History.Date" xml:space="preserve">
+		<value>Date</value>
+	</data>
+	<data name="History.Denied" xml:space="preserve">
+		<value>Denied</value>
+	</data>
+	<data name="History.End" xml:space="preserve">
+		<value>End</value>
+	</data>
+	<data name="History.From" xml:space="preserve">
+		<value>from</value>
+	</data>
+	<data name="History.History" xml:space="preserve">
+		<value>History</value>
+	</data>
+	<data name="History.InWork" xml:space="preserve">
+		<value>In work</value>
+	</data>
+	<data name="History.Show" xml:space="preserve">
+		<value>Filter</value>
+	</data>
+	<data name="History.Status" xml:space="preserve">
+		<value>Status</value>
+	</data>
+	<data name="History.Sum" xml:space="preserve">
+		<value>Sum</value>
+	</data>
+	<data name="History.Sys" xml:space="preserve">
+		<value>System</value>
+	</data>
+	<data name="History.To" xml:space="preserve">
+		<value>to</value>
+	</data>
+	<data name="History.Top" xml:space="preserve">
+		<value>Payment history</value>
+	</data>
+	<data name="Lobbi.AllFull" xml:space="preserve">
+		<value>All tables are already occupied</value>
+	</data>
+	<data name="Lobbi.CatNotFound" xml:space="preserve">
+		<value>Category not found</value>
+	</data>
+	<data name="Lobbi.New" xml:space="preserve">
+		<value>Noob</value>
+	</data>
+	<data name="Lobbi.notEnough" xml:space="preserve">
+		<value>Do not have enough money to start the game. Fill up balance</value>
+	</data>
+	<data name="Lobbi.nowPlaying" xml:space="preserve">
+		<value>Now playing:</value>
+	</data>
+	<data name="Lobbi.play" xml:space="preserve">
+		<value>Play</value>
+	</data>
+	<data name="Lobbi.Prof" xml:space="preserve">
+		<value>Professional</value>
+	</data>
+	<data name="Lobbi.Top" xml:space="preserve">
+		<value>Game selection</value>
+	</data>
+	<data name="Lobbi.vip" xml:space="preserve">
+		<value>VIP</value>
+	</data>
+	<data name="Login.Enter" xml:space="preserve">
+		<value>Enter</value>
+	</data>
+	<data name="Login.Error" xml:space="preserve">
+		<value>Not a valid username or password</value>
+	</data>
+	<data name="Login.Login" xml:space="preserve">
+		<value>Login</value>
+	</data>
+	<data name="Login.LostPass" xml:space="preserve">
+		<value>Forgot your password?</value>
+	</data>
+	<data name="Login.NeedEnterError" xml:space="preserve">
+		<value>You need to enter login and password</value>
+	</data>
+	<data name="Login.Pass" xml:space="preserve">
+		<value>Password</value>
+	</data>
+	<data name="Login.Reg" xml:space="preserve">
+		<value>or Register</value>
+	</data>
+	<data name="Login.TopText" xml:space="preserve">
+		<value>Authorization</value>
+	</data>
+	<data name="Money.Balance" xml:space="preserve">
+		<value>Your balance:</value>
+	</data>
+	<data name="Money.Email" xml:space="preserve">
+		<value>E-mail</value>
+	</data>
+	<data name="Money.Error" xml:space="preserve">
+		<value>You can not: Your balance more $ 10</value>
+	</data>
+	<data name="Money.History" xml:space="preserve">
+		<value>Payment history</value>
+	</data>
+	<data name="Money.In" xml:space="preserve">
+		<value>Add funds</value>
+	</data>
+	<data name="Money.Out" xml:space="preserve">
+		<value>Withdrawals</value>
+	</data>
+	<data name="Money.PayPal" xml:space="preserve">
+		<value>PayPal</value>
+	</data>
+	<data name="Money.Qiwi" xml:space="preserve">
+		<value>QIWI</value>
+	</data>
+	<data name="Money.RulsIn" xml:space="preserve">
+		<value>The rules of the funds</value>
+	</data>
+	<data name="Money.RulsOut" xml:space="preserve">
+		<value>Terms withdraw funds</value>
+	</data>
+	<data name="Money.SelectWallet" xml:space="preserve">
+		<value>Sellect wallet</value>
+	</data>
+	<data name="Money.Top" xml:space="preserve">
+		<value>Cashier Player</value>
+	</data>
+	<data name="Money.WM" xml:space="preserve">
+		<value>WebMoney</value>
+	</data>
+	<data name="Money.Yandex" xml:space="preserve">
+		<value>VISA / Mastercard</value>
+	</data>
+	<data name="MoneyIn.Btn" xml:space="preserve">
+		<value>Top up</value>
+	</data>
+	<data name="MoneyIn.Top" xml:space="preserve">
+		<value>Refill</value>
+	</data>
+	<data name="MoneyOut.Comis" xml:space="preserve">
+		<value>Fee for withdrawal composes 3%</value>
+	</data>
+	<data name="MoneyOut.Error" xml:space="preserve">
+		<value>A Mistake! Check your input</value>
+	</data>
+	<data name="MoneyOut.Out" xml:space="preserve">
+		<value>Withdraw</value>
+	</data>
+	<data name="MoneyOut.Phone" xml:space="preserve">
+		<value>Phone number</value>
+	</data>
+	<data name="MoneyOut.PhoneInfo" xml:space="preserve">
+		<value>Number Format +7 for Russia, Ukraine +380</value>
+	</data>
+	<data name="MoneyOut.SelectSystem" xml:space="preserve">
+		<value>Select the system on which you need to withdraw money</value>
+	</data>
+	<data name="MoneyOut.Sum" xml:space="preserve">
+		<value>Withdrawal amount</value>
+	</data>
+	<data name="MoneyOut.Tip" xml:space="preserve">
+		<value>Type purse</value>
+	</data>
+	<data name="MoneyOut.Top" xml:space="preserve">
+		<value>Withdraw </value>
+	</data>
+	<data name="MoneyOut.WhithComis" xml:space="preserve">
+		<value>With commission</value>
+	</data>
+	<data name="MoneyOut.YandexId" xml:space="preserve">
+		<value>Card number</value>
+	</data>
+	<data name="Msg.Think" xml:space="preserve">
+		<value>Thinking</value>
+	</data>
+	<data name="MyProfile" xml:space="preserve">
+		<value>My profile</value>
+	</data>
+	<data name="News" xml:space="preserve">
+		<value>News</value>
+	</data>
+	<data name="Profile.Save" xml:space="preserve">
+		<value>Save</value>
+	</data>
+	<data name="Profile.Top" xml:space="preserve">
+		<value>My profile</value>
+	</data>
+	<data name="Reg.Avatar" xml:space="preserve">
+		<value>Avatar</value>
+	</data>
+	<data name="Reg.AvatarError" xml:space="preserve">
+		<value>Size should not exceed 350 KB</value>
+	</data>
+	<data name="Reg.Bdate" xml:space="preserve">
+		<value>Date of birth</value>
+	</data>
+	<data name="Reg.BdateError" xml:space="preserve">
+		<value>Invalid format date of birth</value>
+	</data>
+	<data name="Reg.Cod" xml:space="preserve">
+		<value>Code on the picture</value>
+	</data>
+	<data name="Reg.CodError" xml:space="preserve">
+		<value>Enter the code in the imageod</value>
+	</data>
+	<data name="Reg.CodError2" xml:space="preserve">
+		<value>Wrong cod</value>
+	</data>
+	<data name="Reg.Country" xml:space="preserve">
+		<value>Country</value>
+	</data>
+	<data name="Reg.DownLbl" xml:space="preserve">
+		<value>* Required fields              ** Mandatory item when playing for money</value>
+	</data>
+	<data name="Reg.Email" xml:space="preserve">
+		<value>E-mail*</value>
+	</data>
+	<data name="Reg.EmailUsed" xml:space="preserve">
+		<value>This email is already in use</value>
+	</data>
+	<data name="Reg.Fio" xml:space="preserve">
+		<value>Full name**</value>
+	</data>
+	<data name="Reg.FioError" xml:space="preserve">
+		<value>Must contain only letters 4 and 36 characters</value>
+	</data>
+	<data name="Reg.Format" xml:space="preserve">
+		<value>Supported formats: png, gif, jpg</value>
+	</data>
+	<data name="Reg.Load" xml:space="preserve">
+		<value>Load</value>
+	</data>
+	<data name="Reg.Login" xml:space="preserve">
+		<value>Login*</value>
+	</data>
+	<data name="Reg.LoginError" xml:space="preserve">
+		<value>Username must be between 4 and 36 characters</value>
+	</data>
+	<data name="Reg.LoginExistError" xml:space="preserve">
+		<value>User with this login already existst</value>
+	</data>
+	<data name="Reg.LoginUsed" xml:space="preserve">
+		<value>This login is already in use</value>
+	</data>
+	<data name="Reg.MailError" xml:space="preserve">
+		<value>Invalid address formatt</value>
+	</data>
+	<data name="Reg.MailError0" xml:space="preserve">
+		<value>No user with this email</value>
+	</data>
+	<data name="Reg.MailExist" xml:space="preserve">
+		<value>Email already exists</value>
+	</data>
+	<data name="Reg.Money" xml:space="preserve">
+		<value>Money</value>
+	</data>
+	<data name="Reg.Pass" xml:space="preserve">
+		<value>Password*</value>
+	</data>
+	<data name="Reg.Pass2" xml:space="preserve">
+		<value>Repeat password*</value>
+	</data>
+	<data name="Reg.Pass2Error" xml:space="preserve">
+		<value>Password doesnt match</value>
+	</data>
+	<data name="Reg.PassError" xml:space="preserve">
+		<value>Password must be between 4 and 36 characters</value>
+	</data>
+	<data name="Reg.PassError1" xml:space="preserve">
+		<value>Allowed only English characters</value>
+	</data>
+	<data name="Reg.Phone" xml:space="preserve">
+		<value>Phone**</value>
+	</data>
+	<data name="Reg.PhoneError" xml:space="preserve">
+		<value>The wrong phone number format</value>
+	</data>
+	<data name="Reg.Real" xml:space="preserve">
+		<value>real</value>
+	</data>
+	<data name="Reg.Registration" xml:space="preserve">
+		<value>Registration</value>
+	</data>
+	<data name="Reg.ToLarge" xml:space="preserve">
+		<value>The image is too large</value>
+	</data>
+	<data name="Reg.Top" xml:space="preserve">
+		<value>Registration</value>
+	</data>
+	<data name="Reg.TotalError" xml:space="preserve">
+		<value>An error occurred while registering, check the data again</value>
+	</data>
+	<data name="Reg.Virt" xml:space="preserve">
+		<value>virtual</value>
+	</data>
+	<data name="Reg.WrongCaptcha" xml:space="preserve">
+		<value>Invalid code from the image</value>
+	</data>
+	<data name="Reg.WrongType" xml:space="preserve">
+		<value>Unsupported image format</value>
+	</data>
+	<data name="Reset.Btn" xml:space="preserve">
+		<value>Recover password</value>
+	</data>
+	<data name="Reset.Text" xml:space="preserve">
+		<value>Within a few minutes you will receive an e-mail.</value>
+	</data>
+	<data name="Reset.TopMsg" xml:space="preserve">
+		<value>Password recovery</value>
+	</data>
+	<data name="Restart.Out" xml:space="preserve">
+		<value>Go Out</value>
+	</data>
+	<data name="Restart.Text" xml:space="preserve">
+		<value>Withdraw from the table?</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Save</value>
+	</data>
+	<data name="SelectCountry" xml:space="preserve">
+		<value>Select country</value>
+	</data>
+	<data name="Selecter.Cancel" xml:space="preserve">
+		<value>Cancel</value>
+	</data>
+	<data name="Selecter.Day" xml:space="preserve">
+		<value>Day</value>
+	</data>
+	<data name="Selecter.Month" xml:space="preserve">
+		<value>Month</value>
+	</data>
+	<data name="Selecter.Ok" xml:space="preserve">
+		<value>Accept</value>
+	</data>
+	<data name="Selecter.Top" xml:space="preserve">
+		<value>Select date</value>
+	</data>
+	<data name="Selecter.Year" xml:space="preserve">
+		<value>Year</value>
+	</data>
+	<data name="Support.FAQ" xml:space="preserve">
+		<value>Frequently asked questions in the AZI  (FAQ)
+
+1. If I dealt, but everyone passed, who won? (You won)
+
+2. If some of the players had a suit which he had to fold, but didn’t fold?  
+
+(Program will not let him do it)
+
+3. If I want to level or raise the stake, but I have not enough money, what's to be done? 
+
+(To add your wallet and proceed the game in the next round)
+
+4. How much money I need to continue the “AZI” game, if I didn’t take any trick?  
+
+(If you participated in the previous game and didn’t take any trick – a half of the stake cost. If you are a priori didn’t participate in the play of stake – the cost of the entire stake)
+
+5. Is it allowed to bid up, if mine was leveled? (In this case, it is impossible. If some of the players bided up more than your bet, in this case you can bid up)
+
+6. How many times in sequence it is allowed to pass? (Until you will run off your money)
+
+7. Who is the opening lead? (The one, who was the last to set the highest bid)
+
+8. Should the players have to bring the bid of stake again in azi-round? (No, they shouldn’t.  Only betting are made again)
+
+9. If I was late to make a move in time? ( If a player didn’t make a move for a time allowed at the stage of betting, then a server makes a pass, if a player didn’t make a move during the game, then he opens the first accessible card, if he didn’t response about to play in azi-round, then a negative answer is generated).
+
+10. Why I can not to choose the table I need?  (It is made for your own safety).
+
+11. What is the cost of the stake? (Beginner – 0,1$, Professional – 0,5$, VIP – 5$).
+</value>
+	</data>
+	<data name="Support.Send" xml:space="preserve">
+		<value>Send</value>
+	</data>
+	<data name="Support.Top" xml:space="preserve">
+		<value>Technical support</value>
+	</data>
+	<data name="Support.Vopros" xml:space="preserve">
+		<value>Question administrator</value>
+	</data>
+	<data name="Text.Ruls" xml:space="preserve">
+		<value>Rules of the game
+It is played with a deck of 27 cards, where there are only 3 suits. Each suit is presented by cards from the six to ace. Suits could be any. Before start of the game each player puts on the line preconditioned amount of money. For example, it could be equal to one dollar. After it a first dealer is determined in a random way, in the following games cards are deal out by the one whose re entry was the last or the winner of the previous round. The pack is thoroughly shuffled, cut for deal to each player with RNG – (random number generator) by 3 cards. Trump suit is the upper card of the deck remaining after deal and is put on the top of deck.
+Players, who will not want to play after the make or during the round of betting, announce about it and fold their cards, play «PASS». The betting is in the increase the rates by players. The betting is opened by the player to the left from the dealer; either he increases the rates or pass.
+To increase the rates is allowed not more than three times for all the participating players in the game. Players, settled on rates, play a game. Players, which played pass are not participating in the game. Lead-off in the first game belongs to the player в who won the betting (set the highest price). Player can put his favorite card; each next clockwise player should put a card with the same suit, if he has not such a card suit, he should put a trump, if he has no trump, he can put any card. The player whose card will be the highest with regard to the cards laid will win a trick. A player, who will be the first to have two tricks, takes the stake. If no player will not have more than one trick, what means the draw or the "Azi", then a new game is made.
+The players, who have taken one trick in the previous game, play the game. A player, who didn’t took any trick in the previous game, in order to participate in the game a player can bring in the half of stake. The player not participating in the game, who discarded after the draw or when betting to play the game, should put the entire stake. A player who took the last trick is dealing the cards. After the deal it is again betting and game.  
+</value>
+	</data>
+	<data name="Text.RulsIn" xml:space="preserve">
+		<value>Rules of input/output of money 
+In casino cashier you will find a lot of ways to input/output the money. The most popular and convenient systems in the Internet are the plastic VISA/MasterCard cards, and Webmoney and Yandex.Dengi electronic payment systems. To add a wallet in the electronic payment systems you may buy the refill cards or use the payment terminals.
+
+
+The most convenient way to add money is to add via plastic VISA/MasterCard cards. Payment authorization and processing is made by the certificated processing centers, payments are processed in accordance with the world safety and security standards.
+
+
+Only in our casino you can output the money regardless on yes or no you played the bonuses. To fail an application to output the money in the section «Balans» - Output the funds» it is possible at any time. Minimum amount to be output is from 5$.
+Aside from the currency and via payment system you want to input the money, you should to specify the amount in US dollars, and the converting into another currency will be made by the exchange rate applicable at the time of transfer. After the request, output amount is frozen and not used in your following games.
+Requests for output are processed in MANUAL MODE during the working hours, from 08:00 to 18:00 GMT+4 (Moscow) on a first-come first-served basis.
+Safety service reserves the right to delay the request processing for output without date, in connection with the additional verification.
+After your request is processed, funds will get to your account in the electronic payment systems immediately and in case of output to your bank card during 7-21 working bank days. 
+
+Final decision of how and in what payment system the payment will be done of the gain to player is made by financial safety service of the game. Before to pay the gain, the financial safety service of the game may ask a player to go through the verification procedure. Each request for output is considered individually 
+
+
+
+1. How to add a betting account in casino by real money? 
+2. How to add your betting account via the Webmoney payment system?
+3. How to do a deposit from credit card?
+4. How to add a betting account via the QIWI payment system?
+5. How to enable the block of pop-up windows in the browser?
+6. During what time the funds output is made from the game?
+
+1. How to add a betting account in casino by real money?
+All possible ways to add an account you can find when press to your BALANCE, TO REFILL THE ACCOUNT section.
+
+2. How to add your betting account via the Webmoney payment system?
+You should go to the section BALANCE &gt;&gt;TO REFILL THE ACCOUNT&gt;&gt;WEBMONEY. Notice that in the WMID field you should enter WMID of the wallet (Unique Identification Number of the Webmoney system participant), not the number of the Z, U -wallet. To make a transfer WebMoneyKeeper should be started on your computer.
+
+3. How to do a deposit from credit card?
+You should go to the section BALANCE &gt;&gt;TO REFILL THE ACCOUNT &gt;&gt;Visa/MasterCard, to enter the deposit amount in dollars and press the «PAY» button. After it a window will be opened whereto is required to enter all data needed from the card. After data entry and «PAY» button press your betting account is refilled. 
+
+4. How to add a betting account via the QIWI payment system?
+Iinstructional video: watch To add your betting account with QIWI system, you should go to section BALANCE &gt;&gt;TO REFILL THE ACCOUNT &gt;&gt;QIWI, to enter your phone number (QIWI account number) and sum of the deposit in dollars, to press the “PAY” button. You will receive the bill to your wallet which you shall pay. After the payment is made, a funds will automatically get in during one minute.
+
+5. How to enable the block of pop-up windows in the browser?
+Deactivation of the pop-up windows block in the MS Internet Explorer browser: If after the amount entry and pressing the “OK” button (section BALANCE&gt;&gt; To refill the account), the block of the pop-up window is occurred, then you should do the following: 1. Select in the SERVICE browser menu an INTERNET OPTIONS item.2. In the window opened to select the SECURITY tab and press the «OTHER» button.3. A window SECURITY PARAMETERS will occur, where you should find a VARIOUS &gt;&gt; TO BLOCK THE POP-UP WINDOWS window and to click the CANCEL subitem.4. Then to press the «ОК» and in the window appeared once again to confirm the change. There are two alternatives also: 1. In SERVICE menu to select the TO BLOCK THE POP-UP WINDOWS &gt;&gt; ENABLE OF POP-UP WINDOWS BLOCKING.2. To select in the SERVICE browser menu an INTERNET OPTIONS item. In the window opened you should select the SECURITY item. At the bottom of the window it is required just to untick from the TO BLOCK THE POP-UP WINDOWS point. If you don’t want to enable the block of pop-up windows for all sites, you can permit their appearance only from our site. Your actions: 1. To select in the SERVICE browser menu an INTERNET OPTIONS. In the window opened you should select the SECURITY item.2. At the bottom of the window you should press the «PARAMETERS» button. In the window opened to enter the address of our site and press the «ADD» button. Enabling of the pop-up windows blocking in the Mozilla Firefox browser: In case after the amount entry and pressing “OK” button (BALANCE&gt;&gt; TO REFILL THE ACCOUNT section), a pop-up window blocking is done, you should: 1. In the TOOLS browser menu to select a CONFIGURATIONS item.2. In the window opened to select in the upper menu a CONTENT item and untick it from the TO BLOCK THE POP-UP WINDOWS item. You may not need to cancel the pop-up windows blocking, but to permit the pop-up window appearance only from our site. To do it, you should select in the browser configuration a CONTENT item and against the TO BLOCK THE POP-UP WINDOWS item to press the «EXCEPTIONS» button. In the window opened to enter the address of our site and press the «PERMIT» button. Enabling of pop-up windows block in the Opera browser: In case after the amount entry and pressing the ОК button (BALANCE&gt;&gt; TO REFILL THE ACCOUNT section) a pop-up window blocking is done, you should: 1. В меню браузера ИНСТРУМЕНТЫ выбрать пункт НАСТРОЙКИ &gt;&gt; ОБЩИЕ НАСТРОЙКИ.2. In the window opened to select in the upper menu the MAIN item and to select the APPLY in the drop-down list.
+
+6. During what time the funds output is made from the game?
+Requests for output are processed in manual mode during the working hours, from 08:00 to 18:00 GMT+4 (Moscow) on a first-come first-served basis, seven days a week. At the discretion of the financial service you may need the documents confirming your identity or affiliation of your wallet or credit card. Every request for output is considered individually.
+
+</value>
+	</data>
+	<data name="Text.RulsOut" xml:space="preserve">
+		<value>Rules of input/output of money 
+In casino cashier you will find a lot of ways to input/output the money. The most popular and convenient systems in the Internet are the plastic VISA/MasterCard cards, and Webmoney and Yandex.Dengi electronic payment systems. To add a wallet in the electronic payment systems you may buy the refill cards or use the payment terminals.
+
+
+The most convenient way to add money is to add via plastic VISA/MasterCard cards. Payment authorization and processing is made by the certificated processing centers, payments are processed in accordance with the world safety and security standards.
+
+
+Only in our casino you can output the money regardless on yes or no you played the bonuses. To fail an application to output the money in the section «Balans» - Output the funds» it is possible at any time. Minimum amount to be output is from 5$.
+Aside from the currency and via payment system you want to input the money, you should to specify the amount in US dollars, and the converting into another currency will be made by the exchange rate applicable at the time of transfer. After the request, output amount is frozen and not used in your following games.
+Requests for output are processed in MANUAL MODE during the working hours, from 08:00 to 18:00 GMT+4 (Moscow) on a first-come first-served basis.
+Safety service reserves the right to delay the request processing for output without date, in connection with the additional verification.
+After your request is processed, funds will get to your account in the electronic payment systems immediately and in case of output to your bank card during 7-21 working bank days. 
+
+Final decision of how and in what payment system the payment will be done of the gain to player is made by financial safety service of the game. Before to pay the gain, the financial safety service of the game may ask a player to go through the verification procedure. Each request for output is considered individually 
+
+
+
+1. How to add a betting account in casino by real money? 
+2. How to add your betting account via the Webmoney payment system?
+3. How to do a deposit from credit card?
+4. How to add a betting account via the QIWI payment system?
+5. How to enable the block of pop-up windows in the browser?
+6. During what time the funds output is made from the game?
+
+1. How to add a betting account in casino by real money?
+All possible ways to add an account you can find when press to your BALANCE, TO REFILL THE ACCOUNT section.
+
+2. How to add your betting account via the Webmoney payment system?
+You should go to the section BALANCE &gt;&gt;TO REFILL THE ACCOUNT&gt;&gt;WEBMONEY. Notice that in the WMID field you should enter WMID of the wallet (Unique Identification Number of the Webmoney system participant), not the number of the Z, U -wallet. To make a transfer WebMoneyKeeper should be started on your computer.
+
+3. How to do a deposit from credit card?
+You should go to the section BALANCE &gt;&gt;TO REFILL THE ACCOUNT &gt;&gt;Visa/MasterCard, to enter the deposit amount in dollars and press the «PAY» button. After it a window will be opened whereto is required to enter all data needed from the card. After data entry and «PAY» button press your betting account is refilled. 
+
+4. How to add a betting account via the QIWI payment system?
+Iinstructional video: watch To add your betting account with QIWI system, you should go to section BALANCE &gt;&gt;TO REFILL THE ACCOUNT &gt;&gt;QIWI, to enter your phone number (QIWI account number) and sum of the deposit in dollars, to press the “PAY” button. You will receive the bill to your wallet which you shall pay. After the payment is made, a funds will automatically get in during one minute.
+
+5. How to enable the block of pop-up windows in the browser?
+Deactivation of the pop-up windows block in the MS Internet Explorer browser: If after the amount entry and pressing the “OK” button (section BALANCE&gt;&gt; To refill the account), the block of the pop-up window is occurred, then you should do the following: 1. Select in the SERVICE browser menu an INTERNET OPTIONS item.2. In the window opened to select the SECURITY tab and press the «OTHER» button.3. A window SECURITY PARAMETERS will occur, where you should find a VARIOUS &gt;&gt; TO BLOCK THE POP-UP WINDOWS window and to click the CANCEL subitem.4. Then to press the «ОК» and in the window appeared once again to confirm the change. There are two alternatives also: 1. In SERVICE menu to select the TO BLOCK THE POP-UP WINDOWS &gt;&gt; ENABLE OF POP-UP WINDOWS BLOCKING.2. To select in the SERVICE browser menu an INTERNET OPTIONS item. In the window opened you should select the SECURITY item. At the bottom of the window it is required just to untick from the TO BLOCK THE POP-UP WINDOWS point. If you don’t want to enable the block of pop-up windows for all sites, you can permit their appearance only from our site. Your actions: 1. To select in the SERVICE browser menu an INTERNET OPTIONS. In the window opened you should select the SECURITY item.2. At the bottom of the window you should press the «PARAMETERS» button. In the window opened to enter the address of our site and press the «ADD» button. Enabling of the pop-up windows blocking in the Mozilla Firefox browser: In case after the amount entry and pressing “OK” button (BALANCE&gt;&gt; TO REFILL THE ACCOUNT section), a pop-up window blocking is done, you should: 1. In the TOOLS browser menu to select a CONFIGURATIONS item.2. In the window opened to select in the upper menu a CONTENT item and untick it from the TO BLOCK THE POP-UP WINDOWS item. You may not need to cancel the pop-up windows blocking, but to permit the pop-up window appearance only from our site. To do it, you should select in the browser configuration a CONTENT item and against the TO BLOCK THE POP-UP WINDOWS item to press the «EXCEPTIONS» button. In the window opened to enter the address of our site and press the «PERMIT» button. Enabling of pop-up windows block in the Opera browser: In case after the amount entry and pressing the ОК button (BALANCE&gt;&gt; TO REFILL THE ACCOUNT section) a pop-up window blocking is done, you should: 1. В меню браузера ИНСТРУМЕНТЫ выбрать пункт НАСТРОЙКИ &gt;&gt; ОБЩИЕ НАСТРОЙКИ.2. In the window opened to select in the upper menu the MAIN item and to select the APPLY in the drop-down list.
+
+6. During what time the funds output is made from the game?
+Requests for output are processed in manual mode during the working hours, from 08:00 to 18:00 GMT+4 (Moscow) on a first-come first-served basis, seven days a week. At the discretion of the financial service you may need the documents confirming your identity or affiliation of your wallet or credit card. Every request for output is considered individually.
+
+</value>
+	</data>
+	<data name="Text.TopRuls" xml:space="preserve">
+		<value>Rules of the game</value>
+	</data>
+	<data name="Text.TopRulsIn" xml:space="preserve">
+		<value>The rules of the funds</value>
+	</data>
+	<data name="Text.TopRulsOut" xml:space="preserve">
+		<value>Terms withdraw funds</value>
+	</data>
+	<data name="Top.Away" xml:space="preserve">
+		<value>Go away</value>
+	</data>
+	<data name="Top.Exit" xml:space="preserve">
+		<value>Exit</value>
+	</data>
+	<data name="Top.Online" xml:space="preserve">
+		<value>Online:</value>
+	</data>
+	<data name="Top.Reged" xml:space="preserve">
+		<value>Registered:</value>
+	</data>
+	<data name="Top.Return" xml:space="preserve">
+		<value>Return</value>
+	</data>
+	<data name="Top.Suppert" xml:space="preserve">
+		<value>Support</value>
+	</data>
+</root>

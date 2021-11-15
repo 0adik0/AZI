@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="AziPanel.Accept" xml:space="preserve">
+		<value>Внести</value>
+	</data>
+	<data name="AziPanel.Cancel" xml:space="preserve">
+		<value>Отказаться</value>
+	</data>
+	<data name="AziPanel.Msg" xml:space="preserve">
+		<value>Для входа нужно внести:</value>
+	</data>
+	<data name="AziPanel.TopMsg" xml:space="preserve">
+		<value>Войти в раунд AZI?</value>
+	</data>
+	<data name="Bottom.Balance" xml:space="preserve">
+		<value>Баланс</value>
+	</data>
+	<data name="Bottom.Balance0" xml:space="preserve">
+		<value>vБаланс</value>
+	</data>
+	<data name="Bottom.IncreaseBet" xml:space="preserve">
+		<value>Поднять ставку до:</value>
+	</data>
+	<data name="Bottom.Inrease" xml:space="preserve">
+		<value>Поднять до</value>
+	</data>
+	<data name="Bottom.News" xml:space="preserve">
+		<value>Новости</value>
+	</data>
+	<data name="Bottom.Pass" xml:space="preserve">
+		<value>Пасс</value>
+	</data>
+	<data name="Bottom.Play" xml:space="preserve">
+		<value>Играть</value>
+	</data>
+	<data name="Bottom.Ruls" xml:space="preserve">
+		<value>Правила</value>
+	</data>
+	<data name="Bottom.Urav" xml:space="preserve">
+		<value>Уравнять</value>
+	</data>
+	<data name="ExitPanel.Exit" xml:space="preserve">
+		<value>Выйти</value>
+	</data>
+	<data name="ExitPanel.Msg" xml:space="preserve">
+		<value>Вы хотите выйти из игры?</value>
+	</data>
+	<data name="ExitPanel.Stay" xml:space="preserve">
+		<value>Остаться</value>
+	</data>
+	<data name="Game.Equalized" xml:space="preserve">
+		<value>Уравнял</value>
+	</data>
+	<data name="Game.Out" xml:space="preserve">
+		<value>Отошел</value>
+	</data>
+	<data name="Game.OutAzi" xml:space="preserve">
+		<value>Я пасс</value>
+	</data>
+	<data name="Game.Pass" xml:space="preserve">
+		<value>Пасс</value>
+	</data>
+	<data name="Game.Raise" xml:space="preserve">
+		<value>Повысил на </value>
+	</data>
+	<data name="Game.Waiting" xml:space="preserve">
+		<value>Ожидание остальных 
+игроков</value>
+	</data>
+	<data name="History.Date" xml:space="preserve">
+		<value>Дата</value>
+	</data>
+	<data name="History.Denied" xml:space="preserve">
+		<value>Отказано</value>
+	</data>
+	<data name="History.End" xml:space="preserve">
+		<value>Завершен</value>
+	</data>
+	<data name="History.From" xml:space="preserve">
+		<value>c</value>
+	</data>
+	<data name="History.History" xml:space="preserve">
+		<value>История</value>
+	</data>
+	<data name="History.InWork" xml:space="preserve">
+		<value>В обработке</value>
+	</data>
+	<data name="History.Show" xml:space="preserve">
+		<value>Показать</value>
+	</data>
+	<data name="History.Status" xml:space="preserve">
+		<value>Статус</value>
+	</data>
+	<data name="History.Sum" xml:space="preserve">
+		<value>Сумма</value>
+	</data>
+	<data name="History.Sys" xml:space="preserve">
+		<value>Система</value>
+	</data>
+	<data name="History.To" xml:space="preserve">
+		<value>по</value>
+	</data>
+	<data name="History.Top" xml:space="preserve">
+		<value>История платежей</value>
+	</data>
+	<data name="Lobbi.AllFull" xml:space="preserve">
+		<value>Все столы уже заняты</value>
+	</data>
+	<data name="Lobbi.CatNotFound" xml:space="preserve">
+		<value>Категория не найдена</value>
+	</data>
+	<data name="Lobbi.New" xml:space="preserve">
+		<value>Новичок</value>
+	</data>
+	<data name="Lobbi.notEnough" xml:space="preserve">
+		<value>У Вас недостаточно средств для начала игры. Пополнить баланс</value>
+	</data>
+	<data name="Lobbi.nowPlaying" xml:space="preserve">
+		<value>Сейчас играют: </value>
+	</data>
+	<data name="Lobbi.play" xml:space="preserve">
+		<value>Играть</value>
+	</data>
+	<data name="Lobbi.Prof" xml:space="preserve">
+		<value>Профессионал</value>
+	</data>
+	<data name="Lobbi.Top" xml:space="preserve">
+		<value>Выбор игры</value>
+	</data>
+	<data name="Lobbi.vip" xml:space="preserve">
+		<value>VIP</value>
+	</data>
+	<data name="Login.Enter" xml:space="preserve">
+		<value>Вход</value>
+	</data>
+	<data name="Login.Error" xml:space="preserve">
+		<value>Не верный логин или пароль</value>
+	</data>
+	<data name="Login.Login" xml:space="preserve">
+		<value>Логин</value>
+	</data>
+	<data name="Login.LostPass" xml:space="preserve">
+		<value>Забыли пароль?</value>
+	</data>
+	<data name="Login.NeedEnterError" xml:space="preserve">
+		<value>Нужно ввести логин и пароль</value>
+	</data>
+	<data name="Login.Pass" xml:space="preserve">
+		<value>Пароль</value>
+	</data>
+	<data name="Login.Reg" xml:space="preserve">
+		<value>или Регистрация</value>
+	</data>
+	<data name="Login.TopText" xml:space="preserve">
+		<value>Авторизация</value>
+	</data>
+	<data name="Money.Balance" xml:space="preserve">
+		<value>Ваш баланс:</value>
+	</data>
+	<data name="Money.Email" xml:space="preserve">
+		<value>E-mail</value>
+	</data>
+	<data name="Money.Error" xml:space="preserve">
+		<value>Невозможно: Ваш баланс более 10 $</value>
+	</data>
+	<data name="Money.History" xml:space="preserve">
+		<value>История платежей</value>
+	</data>
+	<data name="Money.In" xml:space="preserve">
+		<value>Пополнить счет</value>
+	</data>
+	<data name="Money.Out" xml:space="preserve">
+		<value>Вывести средства</value>
+	</data>
+	<data name="Money.PayPal" xml:space="preserve">
+		<value>PayPal</value>
+	</data>
+	<data name="Money.Qiwi" xml:space="preserve">
+		<value>QIWI</value>
+	</data>
+	<data name="Money.RulsIn" xml:space="preserve">
+		<value>Правила ввода средств</value>
+	</data>
+	<data name="Money.RulsOut" xml:space="preserve">
+		<value>Правила вывода средств</value>
+	</data>
+	<data name="Money.SelectWallet" xml:space="preserve">
+		<value>Выберите кошелек</value>
+	</data>
+	<data name="Money.Top" xml:space="preserve">
+		<value>Касса игрока</value>
+	</data>
+	<data name="Money.WM" xml:space="preserve">
+		<value>WebMoney</value>
+	</data>
+	<data name="Money.Yandex" xml:space="preserve">
+		<value>Yandex Money</value>
+	</data>
+	<data name="MoneyIn.Btn" xml:space="preserve">
+		<value>Пополнить</value>
+	</data>
+	<data name="MoneyIn.Top" xml:space="preserve">
+		<value>Пополнение счета</value>
+	</data>
+	<data name="MoneyOut.Comis" xml:space="preserve">
+		<value>Комиссия за снятие средств состовляет 6 %</value>
+	</data>
+	<data name="MoneyOut.Error" xml:space="preserve">
+		<value>Ошибка! Проверьте правильность введенных данных</value>
+	</data>
+	<data name="MoneyOut.Out" xml:space="preserve">
+		<value>Вывести</value>
+	</data>
+	<data name="MoneyOut.Phone" xml:space="preserve">
+		<value>Номер телефона</value>
+	</data>
+	<data name="MoneyOut.PhoneInfo" xml:space="preserve">
+		<value>Формат номера +7 для России, +380 для Украины</value>
+	</data>
+	<data name="MoneyOut.SelectSystem" xml:space="preserve">
+		<value>Выберите систему, на которую нужно вывести деньги</value>
+	</data>
+	<data name="MoneyOut.Sum" xml:space="preserve">
+		<value>Сумма вывода</value>
+	</data>
+	<data name="MoneyOut.Tip" xml:space="preserve">
+		<value>Тип кошелька</value>
+	</data>
+	<data name="MoneyOut.Top" xml:space="preserve">
+		<value>Вывести на </value>
+	</data>
+	<data name="MoneyOut.WhithComis" xml:space="preserve">
+		<value>С учетом комиссии</value>
+	</data>
+	<data name="MoneyOut.YandexId" xml:space="preserve">
+		<value>Номер кошелька</value>
+	</data>
+	<data name="Msg.Think" xml:space="preserve">
+		<value>Думаю</value>
+	</data>
+	<data name="MyProfile" xml:space="preserve">
+		<value>Мой профиль</value>
+	</data>
+	<data name="News" xml:space="preserve">
+		<value>Новости</value>
+	</data>
+	<data name="Profile.Save" xml:space="preserve">
+		<value>Сохранить</value>
+	</data>
+	<data name="Profile.Top" xml:space="preserve">
+		<value>Мой профиль</value>
+	</data>
+	<data name="Reg.Avatar" xml:space="preserve">
+		<value>Аватар</value>
+	</data>
+	<data name="Reg.AvatarError" xml:space="preserve">
+		<value>Размер не должен превышать 350 КБ</value>
+	</data>
+	<data name="Reg.Bdate" xml:space="preserve">
+		<value>Дата рождения</value>
+	</data>
+	<data name="Reg.BdateError" xml:space="preserve">
+		<value>Неверный формат даты рождения</value>
+	</data>
+	<data name="Reg.Cod" xml:space="preserve">
+		<value>Код на картинке</value>
+	</data>
+	<data name="Reg.CodError" xml:space="preserve">
+		<value>Введите код на картинке</value>
+	</data>
+	<data name="Reg.CodError2" xml:space="preserve">
+		<value>Неверный код</value>
+	</data>
+	<data name="Reg.Country" xml:space="preserve">
+		<value>Страна</value>
+	</data>
+	<data name="Reg.DownLbl" xml:space="preserve">
+		<value>* Обязательное поле для заполнения    ** Обязательный пункт при игре на деньги</value>
+	</data>
+	<data name="Reg.Email" xml:space="preserve">
+		<value>E-mail*</value>
+	</data>
+	<data name="Reg.EmailUsed" xml:space="preserve">
+		<value>Этот email уже используется</value>
+	</data>
+	<data name="Reg.Fio" xml:space="preserve">
+		<value>Ф.И.О.**</value>
+	</data>
+	<data name="Reg.FioError" xml:space="preserve">
+		<value>Должно содержать только буквы от 4 до 36 символов</value>
+	</data>
+	<data name="Reg.Format" xml:space="preserve">
+		<value>Поддерживаемые форматы: png, gif, jpg</value>
+	</data>
+	<data name="Reg.Load" xml:space="preserve">
+		<value>Загрузить</value>
+	</data>
+	<data name="Reg.Login" xml:space="preserve">
+		<value>Логин*</value>
+	</data>
+	<data name="Reg.LoginError" xml:space="preserve">
+		<value>Логин должен быть длиной от 4 до 36 символов</value>
+	</data>
+	<data name="Reg.LoginExistError" xml:space="preserve">
+		<value>Пользователь с таким логином уже существует</value>
+	</data>
+	<data name="Reg.LoginUsed" xml:space="preserve">
+		<value>Этот логин уже используется</value>
+	</data>
+	<data name="Reg.MailError" xml:space="preserve">
+		<value>Неверный формат адреса</value>
+	</data>
+	<data name="Reg.MailError0" xml:space="preserve">
+		<value>Нет пользователя с теким email</value>
+	</data>
+	<data name="Reg.MailExist" xml:space="preserve">
+		<value>Email уже занят</value>
+	</data>
+	<data name="Reg.Money" xml:space="preserve">
+		<value>Деньги</value>
+	</data>
+	<data name="Reg.Pass" xml:space="preserve">
+		<value>Пароль*</value>
+	</data>
+	<data name="Reg.Pass2" xml:space="preserve">
+		<value>Подтвердить*</value>
+	</data>
+	<data name="Reg.Pass2Error" xml:space="preserve">
+		<value>Пароли не совпадают</value>
+	</data>
+	<data name="Reg.PassError" xml:space="preserve">
+		<value>Пароль должен быть длиной от 4 до 36 симполов</value>
+	</data>
+	<data name="Reg.PassError1" xml:space="preserve">
+		<value>Допускается только английские символы</value>
+	</data>
+	<data name="Reg.Phone" xml:space="preserve">
+		<value>Телефон**</value>
+	</data>
+	<data name="Reg.PhoneError" xml:space="preserve">
+		<value>Неверный формат номера телефона</value>
+	</data>
+	<data name="Reg.Real" xml:space="preserve">
+		<value>реальные</value>
+	</data>
+	<data name="Reg.Registration" xml:space="preserve">
+		<value>Регистрация</value>
+	</data>
+	<data name="Reg.ToLarge" xml:space="preserve">
+		<value>Изображение слишком большое</value>
+	</data>
+	<data name="Reg.Top" xml:space="preserve">
+		<value>Регистрация</value>
+	</data>
+	<data name="Reg.TotalError" xml:space="preserve">
+		<value>Ошибка при регистрации, проверьте данные еще раз</value>
+	</data>
+	<data name="Reg.Virt" xml:space="preserve">
+		<value>Виртуальные</value>
+	</data>
+	<data name="Reg.WrongCaptcha" xml:space="preserve">
+		<value>Не верный код с картинки</value>
+	</data>
+	<data name="Reg.WrongType" xml:space="preserve">
+		<value>Не поддерживаемый формат изображения</value>
+	</data>
+	<data name="Reset.Btn" xml:space="preserve">
+		<value>Восстановить пароль</value>
+	</data>
+	<data name="Reset.Text" xml:space="preserve">
+		<value>В течении нескольких минут Вам придет письмо на почту.</value>
+	</data>
+	<data name="Reset.TopMsg" xml:space="preserve">
+		<value>Восстановление пароля</value>
+	</data>
+	<data name="Restart.Out" xml:space="preserve">
+		<value>Выйти</value>
+	</data>
+	<data name="Restart.Text" xml:space="preserve">
+		<value>Выйти из за стола?</value>
+	</data>
+	<data name="Save" xml:space="preserve">
+		<value>Сохранить</value>
+	</data>
+	<data name="SelectCountry" xml:space="preserve">
+		<value>Выберите страну</value>
+	</data>
+	<data name="Selecter.Cancel" xml:space="preserve">
+		<value>Отмена</value>
+	</data>
+	<data name="Selecter.Day" xml:space="preserve">
+		<value>День</value>
+	</data>
+	<data name="Selecter.Month" xml:space="preserve">
+		<value>Месяц</value>
+	</data>
+	<data name="Selecter.Ok" xml:space="preserve">
+		<value>Принять</value>
+	</data>
+	<data name="Selecter.Top" xml:space="preserve">
+		<value>Установите дату</value>
+	</data>
+	<data name="Selecter.Year" xml:space="preserve">
+		<value>Год</value>
+	</data>
+	<data name="Support.FAQ" xml:space="preserve">
+		<value>&lt;b&gt;Часто задаваемые вопросы&lt;/b&gt;
+&lt;i&gt;Как зарегестрироваться на сайте&lt;/i&gt;</value>
+	</data>
+	<data name="Support.Send" xml:space="preserve">
+		<value>Отправить</value>
+	</data>
+	<data name="Support.Top" xml:space="preserve">
+		<value>Техническая поддержка</value>
+	</data>
+	<data name="Support.Vopros" xml:space="preserve">
+		<value>Вопрос администратору</value>
+	</data>
+	<data name="Text.Ruls" xml:space="preserve">
+		<value>Тут описание правил игры
+Большое описание</value>
+	</data>
+	<data name="Text.RulsIn" xml:space="preserve">
+		<value>Правила ввода средств
+большой текст</value>
+	</data>
+	<data name="Text.RulsOut" xml:space="preserve">
+		<value>Правила вывода средств
+большое описание</value>
+	</data>
+	<data name="Text.TopRuls" xml:space="preserve">
+		<value>Правила игры</value>
+	</data>
+	<data name="Text.TopRulsIn" xml:space="preserve">
+		<value>Правила ввода средств</value>
+	</data>
+	<data name="Text.TopRulsOut" xml:space="preserve">
+		<value>Правила вывода средств</value>
+	</data>
+	<data name="Top.Away" xml:space="preserve">
+		<value>Отойти</value>
+	</data>
+	<data name="Top.Exit" xml:space="preserve">
+		<value>Выйти</value>
+	</data>
+	<data name="Top.Online" xml:space="preserve">
+		<value>Сейчас в игре:</value>
+	</data>
+	<data name="Top.Reged" xml:space="preserve">
+		<value>Зарегистрировано:</value>
+	</data>
+	<data name="Top.Return" xml:space="preserve">
+		<value>Вернуться</value>
+	</data>
+	<data name="Top.Suppert" xml:space="preserve">
+		<value>Тех. поддержка</value>
+	</data>
+</root>

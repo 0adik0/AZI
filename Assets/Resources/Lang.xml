@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <ItemSet>
+                <Item ItemType="Armor" ItemName="Really cool armor" ItemCost="50"/>
+                <Item ItemType="Potion" ItemName="Health potion" ItemCost="15"/>
+                <Item ItemType="Weapon" ItemName="Legendary sword" ItemCost="180"/>
+                <Item ItemType="Potion" ItemName="Mana potion" ItemCost="5"/>
+        </ItemSet>
+</Items>
